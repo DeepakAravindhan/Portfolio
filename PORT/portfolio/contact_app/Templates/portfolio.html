@@ -1,0 +1,238 @@
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEEPAK ARAVINDHAN-PORTFOLIO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'portfolio.css' %}">
+</head>
+
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Deepak Aravindhan V</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Project</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Deepak Aravindhan</h1>
+        <p>A Web Developer in training.</p>
+      </div>
+      
+      <div class="angle-down-icon">
+        
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="image" />
+          <p>
+            I am 23 year old, Msc Mathematics Graduate studied at RKM Vivekananda College(Mylapore).
+             I can't stop learning new
+            things; the more, the better.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>PYTHON</span>
+                        </div>
+                        <div class="progress-line"><span class="python"></span></div>
+                      </div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>MYSQL</span>
+                        </div>
+                        <div class="progress-line"><span class="mysql"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>PROJECT</h1>
+      </div>
+      <div class="portfolio-content container">
+        
+
+        <div class="proj-2">
+          <img src="{% static 'pro.png' %}">
+          <div class="proj2-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>JOB PORTAL</h2>
+            <p>Build Using HTML,CSS,JS and PYTHON-DJANGO</p>
+            <button><a href="https://github.com/DeepakAravindhan/careerconnectors" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+            
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <div class="contact" id="contact-me">
+    <div class="container-contact">
+      <div class="contact-content">
+        <h2 style="margin-left: -200px;">Contact Me</h2>
+        <p class="mail" style="margin-left: -200px;">
+          Get in touch with me <i class="fas fa-arrow-right"></i> <a href="mailto:deepakaravindh0024@gmail.com">deepakaravindh0024@gmail.com</a>
+        </p>
+        <p class="links" style="margin-left: -200px;">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/deepak-aravindhan-v-9aa963213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank" style="margin-left: -200px;"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+
+        <a href="https://github.com/DeepakAravindhan" target="blank" style="margin-left: -200px;"><i class="fab fa-github"></i> Github</a>
+        
+        <a href="https://www.instagram.com/d_e_e_p_a_k__0024" target="blank" style="margin-left: -200px;"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+        <div id="mobileError" class="error"></div>
+  
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <div id="emailError" class="error"></div>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+      <div id="successMessage" class="success"></div>
+    </div>
+  </div>
+  
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 550) {
+          $('.navbar').addClass('solid');
+        } else {
+          $('.navbar').removeClass('solid');
+        }
+      });
+
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
+      });
+
+      $('#contactForm').submit(function(e) {
+        e.preventDefault();
+        var formData = {
+          name: $('#name').val(),
+          mobile: $('#mobile').val(),
+          email: $('#email').val(),
+          message: $('#message').val(),
+          csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+        };
+
+        $.ajax({
+          url: '/contact/',
+          type: 'POST',
+          data: JSON.stringify(formData),
+          contentType: 'application/json',
+          success: function(response) {
+            if (response.success) {
+              $('#successMessage').text(response.message).css('color', 'green');
+              $('#contactForm')[0].reset();
+            } else {
+              $('#successMessage').text(response.message).css('color', 'red');
+            }
+          },
+          error: function() {
+            $('#successMessage').text('An error occurred. Please try again.').css('color', 'red');
+          }
+        });
+      });
+    });
+    
+    
+  </script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
